@@ -116,16 +116,7 @@ li {
   backdrop-filter: blur(4px);
 }
 
-.travel-inputs input {
-  width: 175px;
-  height: 50px;
-  margin: 0 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
+.travel-inputs input,
 .travel-inputs select {
   width: 175px;
   height: 50px;
@@ -278,6 +269,10 @@ li {
 
   .ham-burger i {
     font-size: 26px;
+  }
+
+  .travel-inputs input {
+    padding: 0;
   }
 
   .explore-container h3 {
